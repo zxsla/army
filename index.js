@@ -72,17 +72,6 @@ var config = {
       "filterable": 1
     },
     {
-      "key": "荐片弹幕版",
-      "name": "荐片专区",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/jianpian.json$$$1",
-      "timeout": 60
-    },
-    {
       "key": "jisuzy",
       "name": "二宝子",
       "type": 1,
@@ -149,5 +138,4 @@ var config = {
   "lives": [],
   "parses": []
 };
-
-module.exports = config;
+config;
